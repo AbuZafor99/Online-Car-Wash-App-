@@ -1,0 +1,68 @@
+name: flutter_youssefkleeno
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+    sdk: ^3.9.2
+
+dependencies:
+    flutter:
+        sdk: flutter
+    draggable_home: ^1.0.5
+    cupertino_icons: ^1.0.8
+    flutter_stripe: ^12.0.2
+
+    # State manage
+    get: ^4.7.2
+
+    # UI
+    google_fonts: ^6.3.1
+    flutx_core: ^1.1.0+1
+    image_picker: ^1.2.0
+    video_player: ^2.10.0
+    pin_code_fields: ^8.0.1
+    url_launcher: ^6.3.2
+    country_picker: ^2.0.27
+    dropdown_search: ^6.0.2
+    dotted_border: ^3.1.0
+
+    # Api and cache
+    dio: ^5.9.0
+    hive_flutter: ^1.1.0
+    hive: ^2.2.3
+    path_provider: ^2.1.5
+    json_annotation: ^4.9.0
+    crypto: ^3.0.6
+    cached_network_image: ^3.4.1
+    flutter_secure_storage: ^9.2.4
+
+    # Network checker
+    connectivity_plus: ^6.1.5
+
+    # Location and Maps
+    google_maps_flutter: ^2.9.0
+    location: ^8.0.1
+    geocoding: ^3.0.0
+    geolocator: ^13.0.1
+    permission_handler: ^11.3.1
+
+    # Formation
+    intl: ^0.20.2
+    equatable: ^2.0.7
+    dartz: ^0.10.1
+    file_picker: ^10.3.3
+    csc_picker_plus: ^0.0.3
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+    flutter_lints: ^5.0.0
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/images/
+        - assets/icons/
